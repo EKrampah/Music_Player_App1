@@ -17,7 +17,10 @@ const SearchBar = ({ onSearch }) => {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
-      <button type="submit" className="bg-blue-500 text-white p-2 rounded-r-lg hover:bg-blue-600">
+      <button 
+        type="submit" 
+        className="bg-blue-500 text-white p-2 rounded-r-lg hover:bg-blue-600"
+      >
         Search
       </button>
     </form>
